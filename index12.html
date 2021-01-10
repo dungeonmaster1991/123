@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">       
+        <title>Страница ни о чём...</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            
+            nav>ol {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            }
+            
+            nav>ol>li {
+                padding: 10px 20px;
+                font-size: 24px;
+            }
+            nav>ol>li:hover {
+                box-shadow: 1px 1px 20px rgb(100, 100, 100);
+                color: rgb(100, 100, 100);
+                border-radius: 50px;
+            }
+            nav>ol>img {
+                width: 20vh;
+                transition: all 5s 0.1s ease;
+            }
+            nav>ol>img:hover {
+                transform: rotate(360deg);
+            }
+            main {
+                text-align: center;
+                font-size: 35px;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .card {
+                width: calc(100%/3-40px);
+                border: 1px solid red;
+                margin: 1vh 1vw;
+            }
+            .card>img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        </style>
+   </head>
+   <body>
+       <header>
+           <nav>
+               <ol>
+                   <img src="https://s.tcdn.co/f0f/884/f0f8844e-34b6-3c16-816a-1113189999dc/6.png">
+                   
+                   <li>Привет</li>
+                   <li>Продаем</li>
+                   <li>Покупаем</li>
+                   <li>О нас</li>
+               </ol>
+           </nav>
+       </header>
+       <main>
+            <h1>Это главная страница сайта ни о чём...</h1>
+            <div class="container">
+                <div class="card">
+                   <h3>Рюк</h3>
+                    <img src="https://avatars.mds.yandex.net/get-zen_doc/3472554/pub_5f451f7f8f6cd24c9b937f4d_5f451fe6e73fae6c39f510c0/scale_1200" alt="">
+                    <p>История персонажа Рюк</p>
+                </div>
+                <div class="card">
+                   <h3>Ягами Лайт (Кира)</h3>
+                    <img src="https://static.wikia.nocookie.net/personage/images/2/24/Light_Yagami.jpg/revision/latest/scale-to-width-down/310?cb=20201011163644&path-prefix=ru" alt="">
+                    <p>история персонажа Ягами Лайт</p>
+                </div>
+                <div class="card">
+                   <h3>L</h3>
+                    <img src="https://static.wikia.nocookie.net/deathnote/images/7/76/299276L.jpg/revision/latest/scale-to-width-down/226?cb=20190603193203&path-prefix=ru" alt="">
+                    <p>История персонажа L</p>
+                </div>
+                
+            </div>
+       </main>
+       <footer>
+           
+       </footer>
+       
+        
+ 
+   </body>
+    
+</html>
